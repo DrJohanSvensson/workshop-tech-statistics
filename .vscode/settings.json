@@ -1,0 +1,4 @@
+{
+    "python.REPL.sendToNativeREPL": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Workshop Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      },
+      "extensions": [
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "ms-python.python",
+        "meta.pyrefly",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.datawrangler",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-sqlite",
+        "humao.rest-client",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "otherPortsAttributes": {
+    "onAutoForward": "silent"
+  }
+}
