@@ -8,10 +8,10 @@ For this workshop, we will be covering a lot of ground in a short time (Python, 
 This repository is set up as a [GitHub codespaces](https://github.com/features/codespaces) cloud environment. It requires zero installation and works exactly the same in most browsers.
 
 1. Create a GitHub account at [github.com](https://github.com/signup) if you don't already have one.
-2. Log in and click the green **"<> Code"** button near the top right on this page.
+2. Log in and click the green **"<> Code"** button near the top right on this page (https://github.com/joakimwallmark/workshop-tech-statistics after being logged in).
 3. Select the **"Codespaces"** tab in the dropdown menu.
 4. Click **"Create codespace on main"**.
-5. Once the dark-themed editor (VSCode) appears, wait 2-5 minutes for the environment to build. 
+5. Once the new editor (VS Code) appears, wait 2-5 minutes for the environment to build. 
 
 ---
 
