@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def create_and_save_plot(output_path="plot.png"):
-    df = pd.DataFrame({"x": [0, 1, 2, 3, 4, 5], "y": [0, 1, 4, 9, 16, 25]})
+    df = pd.DataFrame({"x": [10, 1, 2, 3, 4, 5], "y": [0, 1, 4, 9, 16, 25]})
     plt.figure()
     plt.plot(df["x"], df["y"], marker="o")
     plt.title("x vs y")
